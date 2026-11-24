@@ -1,0 +1,56 @@
+# ==========================================================
+# 1. Virtual Machines & Disk Images (Local only - ~31 GB)
+# ==========================================================
+wazuh/
+win/
+*.vmdk
+*.vmx
+*.vmxf
+*.vmsd
+*.vmsn
+*.vmem
+*.nvram
+*.scoreboard
+*.lck/
+*.ova
+*.ovf
+*.iso
+vmware*.log
+mksSandbox*.log
+
+# ==========================================================
+# 2. Word Report & MS Office Temporary Files
+# ==========================================================
+Báo cáo Đồ án chuyên ngành 2.docx
+*.docx
+*.doc
+~$*
+
+# ==========================================================
+# 3. Credentials, API Keys, Tokens & Sensitive Dumps
+# ==========================================================
+wazuh-credentials.txt
+*credentials*.txt
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+*.dmp
+!*.example
+!*.example.*
+
+# ==========================================================
+# 4. Python, Logs & OS/Editor Junk
+# ==========================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
